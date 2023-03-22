@@ -1,0 +1,66 @@
+header{
+    font-family:"Six Caps", "Trebuchet MS","Lucida Grande","Tahoma", sans-serif;
+    margin: -1.5em 0em 2em 0em;
+    padding: 1.2em;
+    width: 245px;
+    height: 100px;
+    position: relative;
+    background-color:white;
+    left: 125px;
+    justify-content: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 0.75em;
+}
+
+body{
+    font-size: 100%;
+    background-color: whitesmoke;
+    background-image:
+        url(../images/art-background4.jpg);
+    background-size: 100%;
+}
+
+article{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size:medium;
+    font-weight: bold;
+    width: 470px;
+    padding: 0px;
+    background-color:rgb(255, 255, 255, .5);
+    margin: 6.5em 4em 4em 8em;
+}
+
+article>h2{
+    font-family:"Trebuchet MS","Lucida Grande","Tahoma", sans-serif;
+    background-color:rgb(255, 255, 255, .6);
+    font-size: 1.5em;
+    padding: 12px;
+    margin-top: auto;
+}
+
+div.act{
+    background-color:rgba(255,255,255,.85);
+    font-size: 0.75em;
+    padding: 20px;
+}
+
+.reg{
+    background-color:rgba(0, 0, 0, 0.4);
+    padding: 0.75em;
+    margin-right: 11em;
+    color:white;
+}
+
+a:link{
+    color:#47B3F7;
+    font-size: 1.2em;
+}
+
