@@ -217,3 +217,279 @@ como columnas y modificar la forma en que se calcula
     display: block;
   }
 }
+
+@media (max-width:320px){
+  body {
+    font-size: 1rem;
+  }
+  header {
+    height: 300px;
+    line-height: 1.2;
+  }
+  header h1 strong {
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1.5;
+    padding: 5%;
+  }
+  section {
+    margin: 40px 10px;
+  }
+  #details {
+    flex-direction: column;
+  }
+  #links {
+    display: inline-block;
+    width:30%;
+    font-size: 1em;
+  }
+  
+  #links a {
+    margin: 1.5%;
+  }
+
+  header nav {
+    padding: 20px;
+    color: white;
+    font-size: .875em;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px ;
+  }
+  #logo{
+    font-size: 2.5em;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  header nav .button {
+    background-color: #a8a6a1;
+    padding: .25rem .35rem;
+    border: .20em solid #a8a6a1;
+    border-radius: 1%;
+    font-size: .73em;
+  }
+
+  header h1 .button {
+    background-color: #a8a6a1;
+    padding: 10px 15px;
+    border: 2px solid #a8a6a1;
+    border-radius: 10px;
+  }
+
+  a.button:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: white;
+  }
+  
+}
+
+@media (max-width:600px){
+  body {
+    font-size: 1rem;
+  }
+  header {
+    height: 300px;
+    line-height: 1.2;
+  }
+  header h1 strong {
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1.5;
+    padding: 5%;
+  }
+  section {
+    margin: 40px 10px;
+  }
+  #details {
+    flex-direction: column;
+  }
+  #links {
+    display:inline-block;
+    width:50%;
+    font-size: 1.7em;
+  }
+  
+  #links a {
+    margin: 1%;
+  }
+
+  header nav {
+    padding: 20px;
+    color: white;
+    
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px ;
+  }
+  #logo{
+    font-size: 2.5em;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  header nav .button {
+    background-color: #a8a6a1;
+    padding: .15rem .25rem;
+    border: .15em solid #a8a6a1;
+    border-radius: 1%;
+    font-size: .75em;
+  }
+
+  header h1 .button {
+    background-color: #a8a6a1;
+    padding: 10px 15px;
+    border: 2px solid #a8a6a1;
+    border-radius: 10px;
+  }
+
+  a.button:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: white;
+  }
+}
+
+header nav {
+  padding: 20px;
+  color: white;
+  font-size: .875em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header {
+  background-image: url("../img/header.jpg");
+  background-size:cover;
+  background-position: center;
+  height: 600px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+
+#logo{
+  font-size: 40px;
+  font-size: 2.5em;
+}
+
+a {
+  cursor: pointer;
+}
+
+/*a.button {
+  background-color: #a8a6a1;
+  padding: 10px 15px;
+  border: 2px solid #a8a6a1;
+  border-radius: 10px;
+}
+a.button:hover {
+  background-color: rgba(255,255,255,0.5);
+  color: white;
+}*/
+
+header h1 {
+  /* cambiar el tamaño de la fuente que sea relativo*/
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+header h1 em {
+  font-size: 20px;
+  font-size: 1.25em;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+
+#main p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 125px;
+  width: 70%;
+}
+
+#main h1 {
+  font-size: 38px;
+  font-size: 1.75em;
+}
+
+
+p {
+  line-height: 36px;
+   line-height: 2.25em;
+}
+
+footer {
+  background-color: rgb(45,45, 45);
+  color: rgba(255, 255, 255, .8);
+  padding: 35px;
+  text-align: center;
+}
+
+footer p {
+  color: rgba(255, 255, 255, .4);
+}
+
+address {
+  font-style: normal;
+}
+
+#details div {
+  /*  width: calc(50% - 10px);
+    margin: 50px 0;*/
+   flex-grow: 1;
+   padding: 20px;
+}
+
+#details {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+#details img {
+  width: 100%;
+}
+
+#details h1 {
+  font-size: 38px;
+}
+
+#details div a.button {
+  color: white;
+}
+
+#details div a.button:hover {
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+}
